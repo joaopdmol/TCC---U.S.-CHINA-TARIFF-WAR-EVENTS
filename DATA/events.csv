@@ -1,0 +1,18 @@
+event_id,date,event_type,event_group,description
+E01,2018-03-22,tariff_announcement,escalation,US announces Section 301 tariff action on Chinese imports
+E02,2018-04-06,tariff_announcement,escalation,USTR publishes proposed tariff list targeting Chinese imports
+E03,2018-06-15,tariff_announcement,escalation,USTR finalizes 25 percent tariffs on 50 billion dollars of Chinese goods
+E04,2018-07-06,tariff_implementation,escalation,First tranche of bilateral tariffs enters into force
+E05,2018-07-11,tariff_announcement,escalation,USTR proposes tariffs on an additional 200 billion dollars of Chinese goods
+E06,2018-08-23,tariff_implementation,escalation,Second tranche of bilateral tariffs enters into force
+E07,2018-09-24,tariff_implementation,escalation,US implements tariffs on 200 billion dollars of Chinese imports
+E08,2018-12-19,suspension,relief,US postpones the scheduled increase of List 3 tariffs
+E09,2019-03-05,suspension,relief,US extends the suspension of the planned List 3 tariff hike
+E10,2019-05-10,tariff_increase,escalation,US raises List 3 tariffs from 10 percent to 25 percent
+E11,2019-08-20,tariff_announcement,escalation,USTR formalizes List 4 tariffs on about 300 billion dollars of Chinese imports
+E12,2019-08-30,tariff_increase,escalation,US raises the planned List 4 tariff rate from 10 percent to 15 percent
+E13,2019-09-01,tariff_implementation,escalation,List 4A tariffs enter into force on Chinese imports
+E14,2019-12-13,agreement,relief,US and China announce a Phase One trade agreement
+E15,2019-12-18,suspension,relief,US suspends planned December tariffs under the Phase One deal
+E16,2020-01-15,agreement,relief,US and China sign the Phase One trade agreement
+E17,2020-02-14,tariff_reduction,relief,US cuts the List 4A tariff rate from 15 percent to 7.5 percent
