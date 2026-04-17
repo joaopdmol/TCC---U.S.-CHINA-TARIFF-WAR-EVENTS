@@ -1,0 +1,52 @@
+event_id,event_group,event_type,description,window_label,formal_car_sp500,n_obs,expected_return,estimation_n_obs,estimation_sufficient_data,sign_label,neutral_threshold
+E01,escalation,tariff_announcement,US announces Section 301 tariff action on Chinese imports,m1_p1,-0.0505901249707741,3,0.0008721219899003,25,True,negative,0.005
+E01,escalation,tariff_announcement,US announces Section 301 tariff action on Chinese imports,m3_p3,-0.0569200559194388,7,0.0008721219899003,25,True,negative,0.005
+E01,escalation,tariff_announcement,US announces Section 301 tariff action on Chinese imports,m5_p5,-0.0486339657194289,11,0.0008721219899003,25,True,negative,0.005
+E02,escalation,tariff_announcement,USTR publishes proposed tariff list targeting Chinese imports,m1_p1,-0.0075880317726314,3,-0.0013776014844454,25,True,negative,0.005
+E02,escalation,tariff_announcement,USTR publishes proposed tariff list targeting Chinese imports,m3_p3,0.0333053120541085,7,-0.0013776014844454,25,True,positive,0.005
+E02,escalation,tariff_announcement,USTR publishes proposed tariff list targeting Chinese imports,m5_p5,0.0356121376974834,11,-0.0013776014844454,25,True,positive,0.005
+E03,escalation,tariff_announcement,USTR finalizes 25 percent tariffs on 50 billion dollars of Chinese goods,m1_p1,-0.0067172505837401,3,0.0020151899613894,25,True,negative,0.005
+E03,escalation,tariff_announcement,USTR finalizes 25 percent tariffs on 50 billion dollars of Chinese goods,m3_p3,-0.019372001090486,7,0.0020151899613894,25,True,negative,0.005
+E03,escalation,tariff_announcement,USTR finalizes 25 percent tariffs on 50 billion dollars of Chinese goods,m5_p5,-0.0277217248873247,11,0.0020151899613894,25,True,negative,0.005
+E04,escalation,tariff_implementation,First tranche of bilateral tariffs enters into force,m1_p1,0.0269660035709211,3,-0.0003469774680201,25,True,positive,0.005
+E04,escalation,tariff_implementation,First tranche of bilateral tariffs enters into force,m3_p3,0.0228535845429616,7,-0.0003469774680201,25,True,positive,0.005
+E04,escalation,tariff_implementation,First tranche of bilateral tariffs enters into force,m5_p5,0.0410068677738905,11,-0.0003469774680201,25,True,positive,0.005
+E05,escalation,tariff_announcement,USTR proposes tariffs on an additional 200 billion dollars of Chinese goods,m1_p1,0.0048325904362575,3,9.850551767453198e-05,25,True,neutral,0.005
+E05,escalation,tariff_announcement,USTR proposes tariffs on an additional 200 billion dollars of Chinese goods,m3_p3,0.0217939376163929,7,9.850551767453198e-05,25,True,positive,0.005
+E05,escalation,tariff_announcement,USTR proposes tariffs on an additional 200 billion dollars of Chinese goods,m5_p5,0.0312075798614832,11,9.850551767453198e-05,25,True,positive,0.005
+E06,escalation,tariff_implementation,Second tranche of bilateral tariffs enters into force,m1_p1,0.0021719807175011,3,0.0006458150303083,25,True,neutral,0.005
+E06,escalation,tariff_implementation,Second tranche of bilateral tariffs enters into force,m3_p3,0.0120249625554622,7,0.0006458150303083,25,True,positive,0.005
+E06,escalation,tariff_implementation,Second tranche of bilateral tariffs enters into force,m5_p5,0.0219553317167309,11,0.0006458150303083,25,True,positive,0.005
+E07,escalation,tariff_implementation,US implements tariffs on 200 billion dollars of Chinese imports,m1_p1,-0.0073601123371882,3,0.0007235984836293,25,True,negative,0.005
+E07,escalation,tariff_implementation,US implements tariffs on 200 billion dollars of Chinese imports,m3_p3,-0.0016866326758083,7,0.0007235984836293,25,True,neutral,0.005
+E07,escalation,tariff_implementation,US implements tariffs on 200 billion dollars of Chinese imports,m5_p5,-0.0011474992210981,11,0.0007235984836293,25,True,neutral,0.005
+E08,relief,suspension,US postpones the scheduled increase of List 3 tariffs,m1_p1,-0.0274834051298507,3,-0.0011993383827554,25,True,negative,0.005
+E08,relief,suspension,US postpones the scheduled increase of List 3 tariffs,m3_p3,-0.1102467244752972,7,-0.0011993383827554,25,True,negative,0.005
+E08,relief,suspension,US postpones the scheduled increase of List 3 tariffs,m5_p5,-0.0420733740178481,11,-0.0011993383827554,25,True,negative,0.005
+E09,relief,suspension,US extends the suspension of the planned List 3 tariff hike,m1_p1,-0.0186950741214168,3,0.0023862947174014,25,True,negative,0.005
+E09,relief,suspension,US extends the suspension of the planned List 3 tariff hike,m3_p3,-0.034427847120228,7,0.0023862947174014,25,True,negative,0.005
+E09,relief,suspension,US extends the suspension of the planned List 3 tariff hike,m5_p5,-0.0276881724020866,11,0.0023862947174014,25,True,negative,0.005
+E10,escalation,tariff_increase,US raises List 3 tariffs from 10 percent to 25 percent,m1_p1,-0.0281650110662598,3,0.0015777753949022,25,True,negative,0.005
+E10,escalation,tariff_increase,US raises List 3 tariffs from 10 percent to 25 percent,m3_p3,-0.038738269733784,7,0.0015777753949022,25,True,negative,0.005
+E10,escalation,tariff_increase,US raises List 3 tariffs from 10 percent to 25 percent,m5_p5,-0.0368241265916631,11,0.0015777753949022,25,True,negative,0.005
+E11,escalation,tariff_announcement,USTR formalizes List 4 tariffs on about 300 billion dollars of Chinese imports,m1_p1,0.0161266173956693,3,-0.0012295603029301,25,True,positive,0.005
+E11,escalation,tariff_announcement,USTR formalizes List 4 tariffs on about 300 billion dollars of Chinese imports,m3_p3,0.0114828396780554,7,-0.0012295603029301,25,True,positive,0.005
+E11,escalation,tariff_announcement,USTR formalizes List 4 tariffs on about 300 billion dollars of Chinese imports,m5_p5,0.0100198233996227,11,-0.0012295603029301,25,True,positive,0.005
+E12,escalation,tariff_increase,US raises the planned List 4 tariff rate from 10 percent to 15 percent,m1_p1,0.0091373758148273,3,-0.0009021324237525,25,True,positive,0.005
+E12,escalation,tariff_increase,US raises the planned List 4 tariff rate from 10 percent to 15 percent,m3_p3,0.0399400978948038,7,-0.0009021324237525,25,True,positive,0.005
+E12,escalation,tariff_increase,US raises the planned List 4 tariff rate from 10 percent to 15 percent,m5_p5,0.0294018734644835,11,-0.0009021324237525,25,True,positive,0.005
+E13,escalation,tariff_implementation,List 4A tariffs enter into force on Chinese imports,m1_p1,0.0096645155019688,3,-0.0016929165130266,25,True,positive,0.005
+E13,escalation,tariff_implementation,List 4A tariffs enter into force on Chinese imports,m3_p3,0.0495893723092603,7,-0.0016929165130266,25,True,positive,0.005
+E13,escalation,tariff_implementation,List 4A tariffs enter into force on Chinese imports,m5_p5,0.0643691395559382,11,-0.0016929165130266,25,True,positive,0.005
+E14,relief,agreement,US and China announce a Phase One trade agreement,m1_p1,0.0130158311219754,3,0.0009265872390297,25,True,positive,0.005
+E14,relief,agreement,US and China announce a Phase One trade agreement,m3_p3,0.011023698164197,7,0.0009265872390297,25,True,positive,0.005
+E14,relief,agreement,US and China announce a Phase One trade agreement,m5_p5,0.0226943252297489,11,0.0009265872390297,25,True,positive,0.005
+E15,relief,suspension,US suspends planned December tariffs under the Phase One deal,m1_p1,0.0022386309601658,3,0.0007078843663903,25,True,neutral,0.005
+E15,relief,suspension,US suspends planned December tariffs under the Phase One deal,m3_p3,0.0124383852405915,7,0.0007078843663903,25,True,positive,0.005
+E15,relief,suspension,US suspends planned December tariffs under the Phase One deal,m5_p5,0.0260229500657534,11,0.0007078843663903,25,True,positive,0.005
+E16,relief,agreement,US and China sign the Phase One trade agreement,m1_p1,0.0050635851339995,3,0.0012195440013929,25,True,positive,0.005
+E16,relief,agreement,US and China sign the Phase One trade agreement,m3_p3,0.0055166302924706,7,0.0012195440013929,25,True,positive,0.005
+E16,relief,agreement,US and China sign the Phase One trade agreement,m5_p5,0.0136262209449623,11,0.0012195440013929,25,True,positive,0.005
+E17,relief,tariff_reduction,US cuts the List 4A tariff rate from 15 percent to 7.5 percent,m1_p1,-0.0069961283731409,3,0.001429757773294,25,True,negative,0.005
+E17,relief,tariff_reduction,US cuts the List 4A tariff rate from 15 percent to 7.5 percent,m3_p3,-0.0036737743293481,7,0.001429757773294,25,True,neutral,0.005
+E17,relief,tariff_reduction,US cuts the List 4A tariff rate from 15 percent to 7.5 percent,m5_p5,-0.0514989909887101,11,0.001429757773294,25,True,negative,0.005
