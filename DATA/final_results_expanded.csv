@@ -1,0 +1,4 @@
+sample_label,sample_definition,window_label,mean_formal_car_sp500,median_formal_car_sp500,std_formal_car_sp500,mean_volatility_sp500,positive_share,negative_share,neutral_share,n_events,neutral_threshold
+expanded_market_covered,Amostra expandida com eventos do master que possuem cobertura de mercado ate 2020-12-31.,m1_p1,-0.0023430040812778123,-0.00062123816945765,0.016533786668356653,0.006701644086304417,0.3333333333333333,0.375,0.2916666666666667,24,0.005
+expanded_market_covered,Amostra expandida com eventos do master que possuem cobertura de mercado ate 2020-12-31.,m3_p3,-0.001643600192147921,0.0048262485038498,0.03357980216411478,0.006961654409855654,0.5,0.2916666666666667,0.20833333333333334,24,0.005
+expanded_market_covered,Amostra expandida com eventos do master que possuem cobertura de mercado ate 2020-12-31.,m5_p5,0.0010798147647165374,0.010630000944407001,0.03400542037934711,0.008294487803211854,0.5416666666666666,0.375,0.08333333333333333,24,0.005

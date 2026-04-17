@@ -1,0 +1,3 @@
+sample_label,n_events,mean_formal_car_m1_p1,mean_formal_car_m3_p3,mean_formal_car_m5_p5,diff_m3_minus_m1,diff_m5_minus_m3,diff_m5_minus_m1,tendency_label,interpretation_note
+core,17,-0.003786941629512718,-0.0026527344115345056,0.00354872916952573,0.0011342072179782122,0.0062014635810602355,0.007335670799038447,reversal_toward_positive,O efeito medio muda de sinal e aponta para reversao ao longo do tempo.
+expanded_market_covered,24,-0.0023430040812778123,-0.001643600192147921,0.0010798147647165374,0.0006994038891298912,0.0027234149568644587,0.0034228188459943494,reversal_toward_positive,O efeito medio muda de sinal e aponta para reversao ao longo do tempo.
