@@ -1,0 +1,9 @@
+scope_type,scope_value,test_method,n_obs,correlation,p_value,significant_5pct
+all_events,all_events,pearson,51,-0.298621341784012,0.0332918712784002,True
+all_events,all_events,spearman,51,-0.16452488687782804,0.24862444192044506,False
+window_label,m1_p1,pearson,17,-0.3955780685856778,0.1160239083267391,False
+window_label,m1_p1,spearman,17,-0.25980392156862747,0.31391716151942506,False
+window_label,m3_p3,pearson,17,-0.2149300610683206,0.4074288080975207,False
+window_label,m3_p3,spearman,17,-0.014705882352941176,0.9553274855428822,False
+window_label,m5_p5,pearson,17,-0.4142767429354157,0.09827660629817174,False
+window_label,m5_p5,spearman,17,-0.232843137254902,0.368459654854376,False
