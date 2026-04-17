@@ -8,7 +8,7 @@ A estrategia adotada preserva a separacao entre documentacao historica e inferen
 
 ## 6.2 Resultados do event study (core)
 
-Na amostra principal, o CAR formal medio do S&P 500 foi de -0.38% em `m1_p1`, -0.27% em `m3_p3` e 0.35% em `m5_p5`. O padrao agregado sugere o efeito medio muda de sinal e aponta para reversao ao longo do tempo.
+Na amostra principal, o CAR formal medio do S&P 500 foi de -0.38% em `m1_p1`, -0.27% em `m3_p3` e 0.35% em `m5_p5`. O padrao agregado sugere um movimento de reversao ao longo do tempo, com melhora do CAR medio nas janelas mais longas.
 
 Essa leitura ganha forca quando se observa a distribuicao dos sinais. Em `m1_p1`, 47.06% dos eventos foram classificados como negativos e 35.29% como positivos. Em `m5_p5`, a participacao de eventos positivos sobe para 58.82%, enquanto a de eventos negativos fica em 35.29%. Em termos economicos, isso e consistente com a ideia de que parte da reacao inicial do mercado americano foi posteriormente amortecida ou revertida em janelas mais amplas.
 
@@ -16,7 +16,7 @@ Essa leitura ganha forca quando se observa a distribuicao dos sinais. Em `m1_p1`
 
 A analise de robustez utiliza a cronologia expandida, mas considera apenas os eventos com cobertura efetiva de mercado. Nesse recorte, o CAR formal medio foi de -0.23% em `m1_p1`, -0.16% em `m3_p3` e 0.11% em `m5_p5`, com 24 eventos por janela.
 
-O comportamento agregado da amostra expandida coberta aponta para o efeito medio muda de sinal e aponta para reversao ao longo do tempo. Em relacao ao trilho principal, os valores medios ficam menos extremos, o que e esperado quando se incorporam eventos adicionais do inicio do periodo pandemico. Ainda assim, o padrao geral de melhora relativa nas janelas mais longas permanece visivel, o que sugere que o resultado principal nao depende apenas do subconjunto original de 17 eventos.
+O comportamento agregado da amostra expandida coberta aponta para um movimento de reversao ao longo do tempo, com melhora do CAR medio nas janelas mais longas. Em relacao ao trilho principal, os valores medios ficam menos extremos, o que e esperado quando se incorporam eventos adicionais do inicio do periodo pandemico. Ainda assim, o padrao geral de melhora relativa nas janelas mais longas permanece visivel, o que sugere que o resultado principal nao depende apenas do subconjunto original de 17 eventos.
 
 ## 6.4 Comparacao core vs expanded
 
@@ -32,7 +32,7 @@ Isso sugere que janelas com CAR mais negativo tendem, em media, a conviver com m
 
 ## 6.6 Interpretacao dos testes estatisticos
 
-Os testes entre janelas nao indicaram evidencia estatisticamente significativa de diferenca entre `m1_p1` e `m3_p3` no conjunto total (`p = 0.868` no teste t pareado). O mesmo ocorre para `m3_p3` versus `m5_p5` (`p = 0.261`), embora essa segunda comparacao sugira uma diferenca mais proxima do limiar convencional de 5 por cento.
+Os testes entre janelas nao indicaram evidencia estatisticamente significativa de diferenca entre `m1_p1` e `m3_p3` no conjunto total (`p = 0.868` no teste t pareado). O mesmo ocorre para `m3_p3` versus `m5_p5` no teste t pareado (`p = 0.261`). No teste nao parametrico de Wilcoxon para essa segunda comparacao, o p-value foi `p = 0.064`, o que caracteriza no maximo evidencia sugestiva, e nao conclusiva, de diferenca entre janelas.
 
 Nos testes entre grupos, tambem nao houve evidencia estatisticamente significativa de diferenca entre eventos de `escalation` e `relief` em nenhuma das tres janelas. Os p-values dos testes t de Welch foram 0.776 em `m1_p1`, 0.258 em `m3_p3` e 0.270 em `m5_p5`. Portanto, a leitura mais adequada nao e a de igualdade comprovada entre grupos, mas sim a de ausencia de evidencia estatistica forte para diferenca dada a amostra disponivel.
 
