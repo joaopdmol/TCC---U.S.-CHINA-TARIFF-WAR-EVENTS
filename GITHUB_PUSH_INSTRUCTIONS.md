@@ -1,7 +1,8 @@
 # GitHub Push Instructions
 
 O projeto ja esta preparado localmente para versionamento.
-No estado atual, o repositorio local ja existe, a branch local esta em `main` e ainda nao ha remote `origin` configurado.
+No estado atual, o repositorio local ja existe, a branch local esta em `main` e o remote `origin` esta configurado para `https://github.com/joaopdmol/TRADE-WARS-DATA-ANALYSIS-ML.git`.
+Tentativa mais recente de push: falhou por falta de credenciais validas.
 
 ## 1. Criar um repositorio no GitHub
 
