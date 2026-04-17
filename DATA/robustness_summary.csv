@@ -1,0 +1,6 @@
+conclusion_id,conclusion_statement,baseline_signal,baseline_magnitude,consistency_across_scenarios,robustness_class,evidence_note
+core_m5_positive,O CAR medio do core em m5_p5 permanece positivo.,positive,0.0035487291695257,1.00,robust,"A conclusao foi confrontada com janelas de estimacao [-20,-6], [-30,-6] e [-40,-6]."
+core_progression_upward,"No core, o CAR medio melhora conforme a janela aumenta.",upward_progression,0.0073356707990384,1.00,robust,A ordenacao m1_p1 < m3_p3 < m5_p5 foi avaliada em todas as janelas de estimacao.
+escalation_positive_share_m5,"Em escalation, a janela m5_p5 preserva predominio de sinais positivos.",positive_share_above_50pct,0.6363636363636364,1.00,robust,A participacao de sinais positivos variou entre 0.64 e 0.64 conforme o limiar.
+sample_expansion_preserves_sign_m5,A expansao da amostra preserva o sinal positivo de m5_p5.,same_sign,-0.0024689144048092,1.00,robust,"A magnitude cai na amostra expandida, mas o sinal final nao se inverte."
+negative_return_volatility_link,CARs mais negativos tendem a estar associados a maior volatilidade.,negative_correlation,-0.298621341784012,0.70,moderately sensitive,"A associacao negativa aparece em Pearson, mas nao recebe confirmacao estatistica em Spearman."
