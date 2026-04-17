@@ -1,9 +1,19 @@
 from pathlib import Path
 
 import matplotlib.pyplot as plt
-from matplotlib.ticker import PercentFormatter
-import numpy as np
 import pandas as pd
+
+from academic_plot_style import (
+    ESCALATION_COLOR,
+    RELIEF_COLOR,
+    TITLE_FONTSIZE,
+    add_reference_lines,
+    apply_axis_style,
+    configure_matplotlib,
+    place_figure_legend,
+    save_figure,
+    shared_limits,
+)
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -15,9 +25,9 @@ SCATTER_OUTPUT = BASE_DIR / "FIGURES" / "scatter_return_vs_volatility.png"
 
 WINDOW_ORDER = ["m1_p1", "m3_p3", "m5_p5"]
 WINDOW_LABELS = {
-    "m1_p1": "[-1, +1]",
-    "m3_p3": "[-3, +3]",
-    "m5_p5": "[-5, +5]",
+    "m1_p1": "[-1,+1]",
+    "m3_p3": "[-3,+3]",
+    "m5_p5": "[-5,+5]",
 }
 GROUP_ORDER = ["escalation", "relief"]
 GROUP_LABELS = {
@@ -25,8 +35,8 @@ GROUP_LABELS = {
     "relief": "Relief",
 }
 GROUP_COLORS = {
-    "escalation": "#B03A2E",
-    "relief": "#1E8449",
+    "escalation": ESCALATION_COLOR,
+    "relief": RELIEF_COLOR,
 }
 
 
@@ -46,7 +56,9 @@ def load_inputs() -> tuple[pd.DataFrame, pd.DataFrame]:
 
 
 def plot_car_distribution_by_group(formal_car_by_event: pd.DataFrame) -> None:
-    fig, axes = plt.subplots(1, 3, figsize=(16, 5), dpi=300, sharey=True)
+    fig, axes = plt.subplots(1, 3, figsize=(18, 6), sharey=True)
+    all_values = formal_car_by_event["formal_car_sp500"].dropna().tolist()
+    y_limits = shared_limits(all_values, pad_ratio=0.15)
 
     for ax, window_label in zip(axes, WINDOW_ORDER, strict=True):
         subset = formal_car_by_event.loc[formal_car_by_event["window_label"] == window_label]
@@ -60,25 +72,34 @@ def plot_car_distribution_by_group(formal_car_by_event: pd.DataFrame) -> None:
             patch_artist=True,
             tick_labels=[GROUP_LABELS[event_group] for event_group in GROUP_ORDER],
             widths=0.55,
+            medianprops={"color": "black", "linewidth": 1.6},
+            whiskerprops={"linewidth": 1.2},
+            capprops={"linewidth": 1.2},
         )
         for patch, event_group in zip(box["boxes"], GROUP_ORDER, strict=True):
             patch.set_facecolor(GROUP_COLORS[event_group])
-            patch.set_alpha(0.7)
+            patch.set_alpha(0.75)
+            patch.set_edgecolor("black")
+            patch.set_linewidth(0.8)
 
-        ax.axhline(0, color="#5D6D7E", linestyle="--", linewidth=1)
-        ax.set_title(WINDOW_LABELS[window_label])
-        ax.yaxis.set_major_formatter(PercentFormatter(1.0))
-        ax.grid(axis="y", linestyle=":", alpha=0.35)
+        add_reference_lines(ax, horizontal_zero=True)
+        ax.set_ylim(*y_limits)
+        apply_axis_style(
+            ax,
+            title=WINDOW_LABELS[window_label],
+            percent_y=True,
+            grid_axis="y",
+        )
 
-    axes[0].set_ylabel("CAR formal simples do S&P 500")
-    fig.suptitle("Distribuicao do CAR formal simples por grupo de evento", y=1.03)
-    fig.tight_layout()
-    fig.savefig(CAR_DISTRIBUTION_OUTPUT, bbox_inches="tight")
-    plt.close(fig)
+    apply_axis_style(axes[0], ylabel="CAR formal do S&P 500", percent_y=True, grid_axis="y")
+    fig.suptitle("Distribuicao do CAR formal por grupo", fontsize=TITLE_FONTSIZE, y=0.98)
+    save_figure(fig, CAR_DISTRIBUTION_OUTPUT, top_rect=0.92)
 
 
 def plot_scatter_return_vs_volatility(return_vs_volatility: pd.DataFrame) -> None:
-    fig, axes = plt.subplots(1, 3, figsize=(16, 5), dpi=300, sharey=True)
+    fig, axes = plt.subplots(1, 3, figsize=(18, 6), sharex=True, sharey=True)
+    x_limits = shared_limits(return_vs_volatility["formal_car_sp500"].dropna().tolist(), pad_ratio=0.12)
+    y_limits = shared_limits(return_vs_volatility["volatility_sp500"].dropna().tolist(), pad_ratio=0.12)
 
     for ax, window_label in zip(axes, WINDOW_ORDER, strict=True):
         subset = return_vs_volatility.loc[return_vs_volatility["window_label"] == window_label]
@@ -88,30 +109,41 @@ def plot_scatter_return_vs_volatility(return_vs_volatility: pd.DataFrame) -> Non
                 group_subset["formal_car_sp500"],
                 group_subset["volatility_sp500"],
                 color=GROUP_COLORS[event_group],
-                alpha=0.8,
-                s=42,
+                alpha=0.70,
+                s=56,
+                edgecolors="white",
+                linewidths=0.5,
                 label=GROUP_LABELS[event_group],
             )
 
-        ax.axvline(0, color="#5D6D7E", linestyle="--", linewidth=1)
-        ax.set_title(WINDOW_LABELS[window_label])
-        ax.set_xlabel("CAR formal simples")
-        ax.xaxis.set_major_formatter(PercentFormatter(1.0))
-        ax.yaxis.set_major_formatter(PercentFormatter(1.0))
-        ax.grid(linestyle=":", alpha=0.35)
+        add_reference_lines(ax, vertical_zero=True)
+        ax.set_xlim(*x_limits)
+        ax.set_ylim(*y_limits)
+        apply_axis_style(
+            ax,
+            xlabel="CAR formal do S&P 500",
+            title=WINDOW_LABELS[window_label],
+            percent_x=True,
+            percent_y=True,
+            grid_axis="both",
+        )
 
-    axes[0].set_ylabel("Volatilidade do S&P 500")
+    apply_axis_style(
+        axes[0],
+        ylabel="Volatilidade do S&P 500",
+        percent_x=True,
+        percent_y=True,
+        grid_axis="both",
+    )
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, frameon=False, loc="upper center", ncol=2)
-    fig.suptitle("CAR formal simples versus volatilidade por janela", y=1.04)
-    fig.tight_layout()
-    fig.savefig(SCATTER_OUTPUT, bbox_inches="tight")
-    plt.close(fig)
+    place_figure_legend(fig, handles, labels, ncol=2, anchor_y=1.03)
+    fig.suptitle("CAR formal versus volatilidade por janela", fontsize=TITLE_FONTSIZE, y=0.98)
+    save_figure(fig, SCATTER_OUTPUT, top_rect=0.86)
 
 
 def main() -> None:
+    configure_matplotlib()
     formal_car_by_event, return_vs_volatility = load_inputs()
-    plt.style.use("default")
 
     plot_car_distribution_by_group(formal_car_by_event)
     plot_scatter_return_vs_volatility(return_vs_volatility)
