@@ -1,0 +1,32 @@
+event_id,date,event_type,event_group,description,event_regime,is_core_sample,is_pandemic_period,is_post_pandemic,include_in_primary_analysis
+E37,2024-04-17,tariff_announcement,escalation,US proposes higher tariffs on metals,post,False,False,True,False
+E38,2024-05-14,tariff_announcement,escalation,US proposes tariffs on EVs and semiconductors,post,False,False,True,False
+E39,2024-05-30,exclusion_extension,relief,US extends tariff exclusions,post,False,False,True,False
+E40,2024-09-13,regulatory_action,escalation,US finalizes tariff increases,post,False,False,True,False
+E41,2024-09-14,retaliation_warning,retaliation,China signals retaliation,post,False,False,True,False
+E42,2024-09-24,regulatory_action,escalation,US proposes further tariff adjustments,post,False,False,True,False
+E43,2024-09-27,tariff_implementation,escalation,New tariffs implemented,post,False,False,True,False
+E44,2024-11-22,retaliation_warning,escalation,China protests US actions,post,False,False,True,False
+E45,2025-01-01,tariff_increase,escalation,US increases semiconductor tariffs,post,False,False,True,False
+E46,2025-01-20,political_transition,structural,New administration shifts trade stance,post,False,False,True,False
+E47,2025-02-04,tariff_implementation,escalation,US imposes broad tariffs,post,False,False,True,False
+E48,2025-02-10,retaliation,retaliation,China retaliates,post,False,False,True,False
+E49,2025-03-04,tariff_implementation,escalation,US increases tariffs again,post,False,False,True,False
+E50,2025-03-10,retaliation,retaliation,China responds again,post,False,False,True,False
+E51,2025-04-10,tariff_increase,escalation,Tariffs reach peak levels,post,False,False,True,False
+E52,2025-05-14,agreement,relief,Tariff reduction agreement,post,False,False,True,False
+E53,2025-05-31,exclusion_extension,relief,US extends exclusions,post,False,False,True,False
+E54,2025-08-12,agreement,relief,Temporary trade truce,post,False,False,True,False
+E55,2025-09-01,regulatory_action,retaliation,China imposes duties,post,False,False,True,False
+E56,2025-10-30,diplomatic_engagement,relief,Leaders agree to adjust measures,post,False,False,True,False
+E57,2025-11-05,tariff_reduction,relief,China removes tariffs,post,False,False,True,False
+E58,2025-11-07,export_control_suspension,relief,China suspends export controls,post,False,False,True,False
+E59,2025-11-09,export_control_suspension,relief,China suspends restrictions,post,False,False,True,False
+E60,2025-11-10,agreement,relief,Mutual tariff reduction agreement,post,False,False,True,False
+E61,2026-01-01,tariff_increase,escalation,US increases tariffs on strategic goods,post,False,False,True,False
+E62,2026-02-24,regulatory_action,structural,New tariff framework begins,post,False,False,True,False
+E63,2026-03-01,legal_action,structural,China updates trade law,post,False,False,True,False
+E64,2026-03-03,analytical_publication,structural,Research highlights trade decoupling,post,False,False,True,False
+E65,2026-03-16,diplomatic_engagement,retaliation,China urges tariff removal,post,False,False,True,False
+E66,2026-03-27,investigation,retaliation,China launches investigations,post,False,False,True,False
+E67,2026-04-08,analytical_publication,structural,Data on export controls released,post,False,False,True,False

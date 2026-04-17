@@ -1,0 +1,202 @@
+event_id,event_date,anchor_date,event_type,event_group,description,event_regime,is_core_sample,is_pandemic_period,is_post_pandemic,include_in_primary_analysis,window_label,expected_count,row_count,min_relative_day,max_relative_day,anchor_shift_calendar_days,has_anchor,coverage_status,is_complete
+E01,2018-03-22,2018-03-22,tariff_announcement,escalation,US announces Section 301 tariff action on Chinese imports,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E01,2018-03-22,2018-03-22,tariff_announcement,escalation,US announces Section 301 tariff action on Chinese imports,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E01,2018-03-22,2018-03-22,tariff_announcement,escalation,US announces Section 301 tariff action on Chinese imports,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E02,2018-04-06,2018-04-06,tariff_announcement,escalation,USTR publishes proposed tariff list targeting Chinese imports,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E02,2018-04-06,2018-04-06,tariff_announcement,escalation,USTR publishes proposed tariff list targeting Chinese imports,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E02,2018-04-06,2018-04-06,tariff_announcement,escalation,USTR publishes proposed tariff list targeting Chinese imports,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E03,2018-06-15,2018-06-15,tariff_announcement,escalation,USTR finalizes 25 percent tariffs on 50 billion dollars of Chinese goods,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E03,2018-06-15,2018-06-15,tariff_announcement,escalation,USTR finalizes 25 percent tariffs on 50 billion dollars of Chinese goods,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E03,2018-06-15,2018-06-15,tariff_announcement,escalation,USTR finalizes 25 percent tariffs on 50 billion dollars of Chinese goods,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E04,2018-07-06,2018-07-06,tariff_implementation,escalation,First tranche of bilateral tariffs enters into force,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E04,2018-07-06,2018-07-06,tariff_implementation,escalation,First tranche of bilateral tariffs enters into force,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E04,2018-07-06,2018-07-06,tariff_implementation,escalation,First tranche of bilateral tariffs enters into force,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E05,2018-07-11,2018-07-11,tariff_announcement,escalation,USTR proposes tariffs on an additional 200 billion dollars of Chinese goods,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E05,2018-07-11,2018-07-11,tariff_announcement,escalation,USTR proposes tariffs on an additional 200 billion dollars of Chinese goods,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E05,2018-07-11,2018-07-11,tariff_announcement,escalation,USTR proposes tariffs on an additional 200 billion dollars of Chinese goods,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E06,2018-08-23,2018-08-23,tariff_implementation,escalation,Second tranche of bilateral tariffs enters into force,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E06,2018-08-23,2018-08-23,tariff_implementation,escalation,Second tranche of bilateral tariffs enters into force,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E06,2018-08-23,2018-08-23,tariff_implementation,escalation,Second tranche of bilateral tariffs enters into force,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E07,2018-09-24,2018-09-24,tariff_implementation,escalation,US implements tariffs on 200 billion dollars of Chinese imports,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E07,2018-09-24,2018-09-24,tariff_implementation,escalation,US implements tariffs on 200 billion dollars of Chinese imports,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E07,2018-09-24,2018-09-24,tariff_implementation,escalation,US implements tariffs on 200 billion dollars of Chinese imports,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E08,2018-12-19,2018-12-19,suspension,relief,US postpones scheduled increase of tariffs,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E08,2018-12-19,2018-12-19,suspension,relief,US postpones scheduled increase of tariffs,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E08,2018-12-19,2018-12-19,suspension,relief,US postpones scheduled increase of tariffs,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E09,2019-03-05,2019-03-05,suspension,relief,US extends suspension of tariff increase,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E09,2019-03-05,2019-03-05,suspension,relief,US extends suspension of tariff increase,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E09,2019-03-05,2019-03-05,suspension,relief,US extends suspension of tariff increase,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E10,2019-05-10,2019-05-10,tariff_increase,escalation,US raises tariffs from 10 percent to 25 percent,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E10,2019-05-10,2019-05-10,tariff_increase,escalation,US raises tariffs from 10 percent to 25 percent,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E10,2019-05-10,2019-05-10,tariff_increase,escalation,US raises tariffs from 10 percent to 25 percent,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E11,2019-08-20,2019-08-20,tariff_announcement,escalation,USTR formalizes new tariffs on Chinese imports,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E11,2019-08-20,2019-08-20,tariff_announcement,escalation,USTR formalizes new tariffs on Chinese imports,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E11,2019-08-20,2019-08-20,tariff_announcement,escalation,USTR formalizes new tariffs on Chinese imports,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E12,2019-08-30,2019-08-30,tariff_increase,escalation,US raises planned tariff rate,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E12,2019-08-30,2019-08-30,tariff_increase,escalation,US raises planned tariff rate,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E12,2019-08-30,2019-08-30,tariff_increase,escalation,US raises planned tariff rate,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E13,2019-09-01,2019-09-03,tariff_implementation,escalation,New tariffs enter into force,core,True,False,False,True,m1_p1,3,3,-1,1,2,True,complete,True
+E13,2019-09-01,2019-09-03,tariff_implementation,escalation,New tariffs enter into force,core,True,False,False,True,m3_p3,7,7,-3,3,2,True,complete,True
+E13,2019-09-01,2019-09-03,tariff_implementation,escalation,New tariffs enter into force,core,True,False,False,True,m5_p5,11,11,-5,5,2,True,complete,True
+E14,2019-12-13,2019-12-13,agreement,relief,Phase One agreement announced,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E14,2019-12-13,2019-12-13,agreement,relief,Phase One agreement announced,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E14,2019-12-13,2019-12-13,agreement,relief,Phase One agreement announced,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E15,2019-12-18,2019-12-18,suspension,relief,US suspends planned tariffs,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E15,2019-12-18,2019-12-18,suspension,relief,US suspends planned tariffs,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E15,2019-12-18,2019-12-18,suspension,relief,US suspends planned tariffs,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E16,2020-01-15,2020-01-15,agreement,relief,Phase One agreement signed,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E16,2020-01-15,2020-01-15,agreement,relief,Phase One agreement signed,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E16,2020-01-15,2020-01-15,agreement,relief,Phase One agreement signed,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E17,2020-02-14,2020-02-14,tariff_reduction,relief,US reduces tariffs,core,True,False,False,True,m1_p1,3,3,-1,1,0,True,complete,True
+E17,2020-02-14,2020-02-14,tariff_reduction,relief,US reduces tariffs,core,True,False,False,True,m3_p3,7,7,-3,3,0,True,complete,True
+E17,2020-02-14,2020-02-14,tariff_reduction,relief,US reduces tariffs,core,True,False,False,True,m5_p5,11,11,-5,5,0,True,complete,True
+E18,2020-02-17,2020-02-18,relief_measure,relief,China introduces tariff exemption process,pandemic,False,True,False,False,m1_p1,3,3,-1,1,1,True,complete,True
+E18,2020-02-17,2020-02-18,relief_measure,relief,China introduces tariff exemption process,pandemic,False,True,False,False,m3_p3,7,7,-3,3,1,True,complete,True
+E18,2020-02-17,2020-02-18,relief_measure,relief,China introduces tariff exemption process,pandemic,False,True,False,False,m5_p5,11,11,-5,5,1,True,complete,True
+E19,2020-07-14,2020-07-14,agricultural_purchase,relief,China increases US agricultural imports,pandemic,False,True,False,False,m1_p1,3,3,-1,1,0,True,complete,True
+E19,2020-07-14,2020-07-14,agricultural_purchase,relief,China increases US agricultural imports,pandemic,False,True,False,False,m3_p3,7,7,-3,3,0,True,complete,True
+E19,2020-07-14,2020-07-14,agricultural_purchase,relief,China increases US agricultural imports,pandemic,False,True,False,False,m5_p5,11,11,-5,5,0,True,complete,True
+E20,2020-07-22,2020-07-22,exclusion_process,relief,US considers tariff exclusions,pandemic,False,True,False,False,m1_p1,3,3,-1,1,0,True,complete,True
+E20,2020-07-22,2020-07-22,exclusion_process,relief,US considers tariff exclusions,pandemic,False,True,False,False,m3_p3,7,7,-3,3,0,True,complete,True
+E20,2020-07-22,2020-07-22,exclusion_process,relief,US considers tariff exclusions,pandemic,False,True,False,False,m5_p5,11,11,-5,5,0,True,complete,True
+E21,2020-08-11,2020-08-11,regulatory_action,escalation,US changes Hong Kong trade labeling rules,pandemic,False,True,False,False,m1_p1,3,3,-1,1,0,True,complete,True
+E21,2020-08-11,2020-08-11,regulatory_action,escalation,US changes Hong Kong trade labeling rules,pandemic,False,True,False,False,m3_p3,7,7,-3,3,0,True,complete,True
+E21,2020-08-11,2020-08-11,regulatory_action,escalation,US changes Hong Kong trade labeling rules,pandemic,False,True,False,False,m5_p5,11,11,-5,5,0,True,complete,True
+E22,2020-08-15,2020-08-17,diplomatic_delay,structural,Trade review postponed,pandemic,False,True,False,False,m1_p1,3,3,-1,1,2,True,complete,True
+E22,2020-08-15,2020-08-17,diplomatic_delay,structural,Trade review postponed,pandemic,False,True,False,False,m3_p3,7,7,-3,3,2,True,complete,True
+E22,2020-08-15,2020-08-17,diplomatic_delay,structural,Trade review postponed,pandemic,False,True,False,False,m5_p5,11,11,-5,5,2,True,complete,True
+E23,2020-08-19,2020-08-19,regulatory_action,escalation,US suspends tax exemptions,pandemic,False,True,False,False,m1_p1,3,3,-1,1,0,True,complete,True
+E23,2020-08-19,2020-08-19,regulatory_action,escalation,US suspends tax exemptions,pandemic,False,True,False,False,m3_p3,7,7,-3,3,0,True,complete,True
+E23,2020-08-19,2020-08-19,regulatory_action,escalation,US suspends tax exemptions,pandemic,False,True,False,False,m5_p5,11,11,-5,5,0,True,complete,True
+E24,2020-08-25,2020-08-25,diplomatic_engagement,relief,Trade talks continue,pandemic,False,True,False,False,m1_p1,3,3,-1,1,0,True,complete,True
+E24,2020-08-25,2020-08-25,diplomatic_engagement,relief,Trade talks continue,pandemic,False,True,False,False,m3_p3,7,7,-3,3,0,True,complete,True
+E24,2020-08-25,2020-08-25,diplomatic_engagement,relief,Trade talks continue,pandemic,False,True,False,False,m5_p5,11,11,-5,5,0,True,complete,True
+E25,2021-05-01,,tariff_reduction,structural,China reduces tariffs on steel,pandemic,False,True,False,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E25,2021-05-01,,tariff_reduction,structural,China reduces tariffs on steel,pandemic,False,True,False,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E25,2021-05-01,,tariff_reduction,structural,China reduces tariffs on steel,pandemic,False,True,False,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E26,2021-07-01,,tariff_reduction,structural,China reduces tariffs on IT goods,pandemic,False,True,False,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E26,2021-07-01,,tariff_reduction,structural,China reduces tariffs on IT goods,pandemic,False,True,False,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E26,2021-07-01,,tariff_reduction,structural,China reduces tariffs on IT goods,pandemic,False,True,False,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E27,2021-10-08,,regulatory_action,relief,US considers tariff exclusions,pandemic,False,True,False,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E27,2021-10-08,,regulatory_action,relief,US considers tariff exclusions,pandemic,False,True,False,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E27,2021-10-08,,regulatory_action,relief,US considers tariff exclusions,pandemic,False,True,False,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E28,2021-10-12,,tariff_suspension,relief,US reinstates tariff exclusions,pandemic,False,True,False,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E28,2021-10-12,,tariff_suspension,relief,US reinstates tariff exclusions,pandemic,False,True,False,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E28,2021-10-12,,tariff_suspension,relief,US reinstates tariff exclusions,pandemic,False,True,False,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E29,2022-01-01,,regulatory_action,structural,China adjusts tariffs,pandemic,False,True,False,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E29,2022-01-01,,regulatory_action,structural,China adjusts tariffs,pandemic,False,True,False,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E29,2022-01-01,,regulatory_action,structural,China adjusts tariffs,pandemic,False,True,False,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E30,2022-03-23,,regulatory_action,relief,US reinstates exclusions,pandemic,False,True,False,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E30,2022-03-23,,regulatory_action,relief,US reinstates exclusions,pandemic,False,True,False,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E30,2022-03-23,,regulatory_action,relief,US reinstates exclusions,pandemic,False,True,False,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E31,2022-05-01,,tariff_reduction,structural,China reduces tariffs on coal,pandemic,False,True,False,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E31,2022-05-01,,tariff_reduction,structural,China reduces tariffs on coal,pandemic,False,True,False,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E31,2022-05-01,,tariff_reduction,structural,China reduces tariffs on coal,pandemic,False,True,False,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E32,2022-05-05,,investigation,escalation,US initiates tariff review,pandemic,False,True,False,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E32,2022-05-05,,investigation,escalation,US initiates tariff review,pandemic,False,True,False,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E32,2022-05-05,,investigation,escalation,US initiates tariff review,pandemic,False,True,False,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E33,2022-12-21,,regulatory_action,relief,US extends exclusions,pandemic,False,True,False,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E33,2022-12-21,,regulatory_action,relief,US extends exclusions,pandemic,False,True,False,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E33,2022-12-21,,regulatory_action,relief,US extends exclusions,pandemic,False,True,False,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E34,2023-01-01,,regulatory_action,structural,China reduces tariffs on consumer goods,pandemic,False,True,False,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E34,2023-01-01,,regulatory_action,structural,China reduces tariffs on consumer goods,pandemic,False,True,False,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E34,2023-01-01,,regulatory_action,structural,China reduces tariffs on consumer goods,pandemic,False,True,False,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E35,2023-02-07,,regulatory_action,relief,US tariffs on washing machines expire,pandemic,False,True,False,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E35,2023-02-07,,regulatory_action,relief,US tariffs on washing machines expire,pandemic,False,True,False,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E35,2023-02-07,,regulatory_action,relief,US tariffs on washing machines expire,pandemic,False,True,False,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E36,2023-09-22,,diplomatic_engagement,structural,US China economic groups formed,pandemic,False,True,False,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E36,2023-09-22,,diplomatic_engagement,structural,US China economic groups formed,pandemic,False,True,False,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E36,2023-09-22,,diplomatic_engagement,structural,US China economic groups formed,pandemic,False,True,False,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E37,2024-04-17,,tariff_announcement,escalation,US proposes higher tariffs on metals,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E37,2024-04-17,,tariff_announcement,escalation,US proposes higher tariffs on metals,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E37,2024-04-17,,tariff_announcement,escalation,US proposes higher tariffs on metals,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E38,2024-05-14,,tariff_announcement,escalation,US proposes tariffs on EVs and semiconductors,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E38,2024-05-14,,tariff_announcement,escalation,US proposes tariffs on EVs and semiconductors,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E38,2024-05-14,,tariff_announcement,escalation,US proposes tariffs on EVs and semiconductors,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E39,2024-05-30,,exclusion_extension,relief,US extends tariff exclusions,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E39,2024-05-30,,exclusion_extension,relief,US extends tariff exclusions,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E39,2024-05-30,,exclusion_extension,relief,US extends tariff exclusions,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E40,2024-09-13,,regulatory_action,escalation,US finalizes tariff increases,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E40,2024-09-13,,regulatory_action,escalation,US finalizes tariff increases,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E40,2024-09-13,,regulatory_action,escalation,US finalizes tariff increases,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E41,2024-09-14,,retaliation_warning,retaliation,China signals retaliation,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E41,2024-09-14,,retaliation_warning,retaliation,China signals retaliation,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E41,2024-09-14,,retaliation_warning,retaliation,China signals retaliation,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E42,2024-09-24,,regulatory_action,escalation,US proposes further tariff adjustments,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E42,2024-09-24,,regulatory_action,escalation,US proposes further tariff adjustments,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E42,2024-09-24,,regulatory_action,escalation,US proposes further tariff adjustments,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E43,2024-09-27,,tariff_implementation,escalation,New tariffs implemented,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E43,2024-09-27,,tariff_implementation,escalation,New tariffs implemented,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E43,2024-09-27,,tariff_implementation,escalation,New tariffs implemented,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E44,2024-11-22,,retaliation_warning,escalation,China protests US actions,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E44,2024-11-22,,retaliation_warning,escalation,China protests US actions,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E44,2024-11-22,,retaliation_warning,escalation,China protests US actions,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E45,2025-01-01,,tariff_increase,escalation,US increases semiconductor tariffs,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E45,2025-01-01,,tariff_increase,escalation,US increases semiconductor tariffs,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E45,2025-01-01,,tariff_increase,escalation,US increases semiconductor tariffs,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E46,2025-01-20,,political_transition,structural,New administration shifts trade stance,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E46,2025-01-20,,political_transition,structural,New administration shifts trade stance,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E46,2025-01-20,,political_transition,structural,New administration shifts trade stance,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E47,2025-02-04,,tariff_implementation,escalation,US imposes broad tariffs,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E47,2025-02-04,,tariff_implementation,escalation,US imposes broad tariffs,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E47,2025-02-04,,tariff_implementation,escalation,US imposes broad tariffs,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E48,2025-02-10,,retaliation,retaliation,China retaliates,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E48,2025-02-10,,retaliation,retaliation,China retaliates,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E48,2025-02-10,,retaliation,retaliation,China retaliates,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E49,2025-03-04,,tariff_implementation,escalation,US increases tariffs again,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E49,2025-03-04,,tariff_implementation,escalation,US increases tariffs again,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E49,2025-03-04,,tariff_implementation,escalation,US increases tariffs again,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E50,2025-03-10,,retaliation,retaliation,China responds again,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E50,2025-03-10,,retaliation,retaliation,China responds again,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E50,2025-03-10,,retaliation,retaliation,China responds again,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E51,2025-04-10,,tariff_increase,escalation,Tariffs reach peak levels,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E51,2025-04-10,,tariff_increase,escalation,Tariffs reach peak levels,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E51,2025-04-10,,tariff_increase,escalation,Tariffs reach peak levels,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E52,2025-05-14,,agreement,relief,Tariff reduction agreement,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E52,2025-05-14,,agreement,relief,Tariff reduction agreement,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E52,2025-05-14,,agreement,relief,Tariff reduction agreement,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E53,2025-05-31,,exclusion_extension,relief,US extends exclusions,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E53,2025-05-31,,exclusion_extension,relief,US extends exclusions,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E53,2025-05-31,,exclusion_extension,relief,US extends exclusions,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E54,2025-08-12,,agreement,relief,Temporary trade truce,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E54,2025-08-12,,agreement,relief,Temporary trade truce,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E54,2025-08-12,,agreement,relief,Temporary trade truce,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E55,2025-09-01,,regulatory_action,retaliation,China imposes duties,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E55,2025-09-01,,regulatory_action,retaliation,China imposes duties,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E55,2025-09-01,,regulatory_action,retaliation,China imposes duties,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E56,2025-10-30,,diplomatic_engagement,relief,Leaders agree to adjust measures,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E56,2025-10-30,,diplomatic_engagement,relief,Leaders agree to adjust measures,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E56,2025-10-30,,diplomatic_engagement,relief,Leaders agree to adjust measures,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E57,2025-11-05,,tariff_reduction,relief,China removes tariffs,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E57,2025-11-05,,tariff_reduction,relief,China removes tariffs,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E57,2025-11-05,,tariff_reduction,relief,China removes tariffs,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E58,2025-11-07,,export_control_suspension,relief,China suspends export controls,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E58,2025-11-07,,export_control_suspension,relief,China suspends export controls,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E58,2025-11-07,,export_control_suspension,relief,China suspends export controls,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E59,2025-11-09,,export_control_suspension,relief,China suspends restrictions,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E59,2025-11-09,,export_control_suspension,relief,China suspends restrictions,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E59,2025-11-09,,export_control_suspension,relief,China suspends restrictions,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E60,2025-11-10,,agreement,relief,Mutual tariff reduction agreement,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E60,2025-11-10,,agreement,relief,Mutual tariff reduction agreement,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E60,2025-11-10,,agreement,relief,Mutual tariff reduction agreement,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E61,2026-01-01,,tariff_increase,escalation,US increases tariffs on strategic goods,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E61,2026-01-01,,tariff_increase,escalation,US increases tariffs on strategic goods,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E61,2026-01-01,,tariff_increase,escalation,US increases tariffs on strategic goods,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E62,2026-02-24,,regulatory_action,structural,New tariff framework begins,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E62,2026-02-24,,regulatory_action,structural,New tariff framework begins,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E62,2026-02-24,,regulatory_action,structural,New tariff framework begins,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E63,2026-03-01,,legal_action,structural,China updates trade law,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E63,2026-03-01,,legal_action,structural,China updates trade law,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E63,2026-03-01,,legal_action,structural,China updates trade law,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E64,2026-03-03,,analytical_publication,structural,Research highlights trade decoupling,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E64,2026-03-03,,analytical_publication,structural,Research highlights trade decoupling,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E64,2026-03-03,,analytical_publication,structural,Research highlights trade decoupling,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E65,2026-03-16,,diplomatic_engagement,retaliation,China urges tariff removal,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E65,2026-03-16,,diplomatic_engagement,retaliation,China urges tariff removal,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E65,2026-03-16,,diplomatic_engagement,retaliation,China urges tariff removal,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E66,2026-03-27,,investigation,retaliation,China launches investigations,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E66,2026-03-27,,investigation,retaliation,China launches investigations,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E66,2026-03-27,,investigation,retaliation,China launches investigations,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False
+E67,2026-04-08,,analytical_publication,structural,Data on export controls released,post,False,False,True,False,m1_p1,3,0,,,,False,outside_market_coverage,False
+E67,2026-04-08,,analytical_publication,structural,Data on export controls released,post,False,False,True,False,m3_p3,7,0,,,,False,outside_market_coverage,False
+E67,2026-04-08,,analytical_publication,structural,Data on export controls released,post,False,False,True,False,m5_p5,11,0,,,,False,outside_market_coverage,False

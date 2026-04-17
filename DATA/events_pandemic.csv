@@ -1,0 +1,20 @@
+event_id,date,event_type,event_group,description,event_regime,is_core_sample,is_pandemic_period,is_post_pandemic,include_in_primary_analysis
+E18,2020-02-17,relief_measure,relief,China introduces tariff exemption process,pandemic,False,True,False,False
+E19,2020-07-14,agricultural_purchase,relief,China increases US agricultural imports,pandemic,False,True,False,False
+E20,2020-07-22,exclusion_process,relief,US considers tariff exclusions,pandemic,False,True,False,False
+E21,2020-08-11,regulatory_action,escalation,US changes Hong Kong trade labeling rules,pandemic,False,True,False,False
+E22,2020-08-15,diplomatic_delay,structural,Trade review postponed,pandemic,False,True,False,False
+E23,2020-08-19,regulatory_action,escalation,US suspends tax exemptions,pandemic,False,True,False,False
+E24,2020-08-25,diplomatic_engagement,relief,Trade talks continue,pandemic,False,True,False,False
+E25,2021-05-01,tariff_reduction,structural,China reduces tariffs on steel,pandemic,False,True,False,False
+E26,2021-07-01,tariff_reduction,structural,China reduces tariffs on IT goods,pandemic,False,True,False,False
+E27,2021-10-08,regulatory_action,relief,US considers tariff exclusions,pandemic,False,True,False,False
+E28,2021-10-12,tariff_suspension,relief,US reinstates tariff exclusions,pandemic,False,True,False,False
+E29,2022-01-01,regulatory_action,structural,China adjusts tariffs,pandemic,False,True,False,False
+E30,2022-03-23,regulatory_action,relief,US reinstates exclusions,pandemic,False,True,False,False
+E31,2022-05-01,tariff_reduction,structural,China reduces tariffs on coal,pandemic,False,True,False,False
+E32,2022-05-05,investigation,escalation,US initiates tariff review,pandemic,False,True,False,False
+E33,2022-12-21,regulatory_action,relief,US extends exclusions,pandemic,False,True,False,False
+E34,2023-01-01,regulatory_action,structural,China reduces tariffs on consumer goods,pandemic,False,True,False,False
+E35,2023-02-07,regulatory_action,relief,US tariffs on washing machines expire,pandemic,False,True,False,False
+E36,2023-09-22,diplomatic_engagement,structural,US China economic groups formed,pandemic,False,True,False,False

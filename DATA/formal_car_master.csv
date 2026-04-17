@@ -1,0 +1,73 @@
+event_id,event_group,event_type,description,event_regime,is_core_sample,is_pandemic_period,is_post_pandemic,include_in_primary_analysis,window_label,formal_car_sp500,n_obs,expected_return,estimation_n_obs,estimation_sufficient_data,volatility_sp500,car_sign,neutral_threshold
+E01,escalation,tariff_announcement,US announces Section 301 tariff action on Chinese imports,core,True,False,False,True,m1_p1,-0.050590124970774294,3,0.0008721219899003075,25,True,0.012430221656043575,negative,0.005
+E01,escalation,tariff_announcement,US announces Section 301 tariff action on Chinese imports,core,True,False,False,True,m3_p3,-0.056920055919439036,7,0.0008721219899003075,25,True,0.01801499423158405,negative,0.005
+E01,escalation,tariff_announcement,US announces Section 301 tariff action on Chinese imports,core,True,False,False,True,m5_p5,-0.04863396571942902,11,0.0008721219899003075,25,True,0.015424616336942787,negative,0.005
+E02,escalation,tariff_announcement,USTR publishes proposed tariff list targeting Chinese imports,core,True,False,False,True,m1_p1,-0.0075880317726315025,3,-0.001377601484445492,25,True,0.015699300866778135,negative,0.005
+E02,escalation,tariff_announcement,USTR publishes proposed tariff list targeting Chinese imports,core,True,False,False,True,m3_p3,0.03330531205410854,7,-0.001377601484445492,25,True,0.013304026669316966,positive,0.005
+E02,escalation,tariff_announcement,USTR publishes proposed tariff list targeting Chinese imports,core,True,False,False,True,m5_p5,0.03561213769748358,11,-0.001377601484445492,25,True,0.013670738053691863,positive,0.005
+E03,escalation,tariff_announcement,USTR finalizes 25 percent tariffs on 50 billion dollars of Chinese goods,core,True,False,False,True,m1_p1,-0.006717250583740269,3,0.0020151899613894166,25,True,0.002399280154148326,negative,0.005
+E03,escalation,tariff_announcement,USTR finalizes 25 percent tariffs on 50 billion dollars of Chinese goods,core,True,False,False,True,m3_p3,-0.01937200109048631,7,0.0020151899613894166,25,True,0.002771003708184592,negative,0.005
+E03,escalation,tariff_announcement,USTR finalizes 25 percent tariffs on 50 billion dollars of Chinese goods,core,True,False,False,True,m5_p5,-0.02772172488732517,11,0.0020151899613894166,25,True,0.003191749095633632,negative,0.005
+E04,escalation,tariff_implementation,First tranche of bilateral tariffs enters into force,core,True,False,False,True,m1_p1,0.026966003570921195,3,-0.00034697746802012206,25,True,0.00017180700420967352,positive,0.005
+E04,escalation,tariff_implementation,First tranche of bilateral tariffs enters into force,core,True,False,False,True,m3_p3,0.022853584542961637,7,-0.00034697746802012206,25,True,0.0065926687269339795,positive,0.005
+E04,escalation,tariff_implementation,First tranche of bilateral tariffs enters into force,core,True,False,False,True,m5_p5,0.04100686777389077,11,-0.00034697746802012206,25,True,0.00557763846179872,positive,0.005
+E05,escalation,tariff_announcement,USTR proposes tariffs on an additional 200 billion dollars of Chinese goods,core,True,False,False,True,m1_p1,0.004832590436257637,3,9.850551767453198e-05,25,True,0.008067565303193322,neutral,0.005
+E05,escalation,tariff_announcement,USTR proposes tariffs on an additional 200 billion dollars of Chinese goods,core,True,False,False,True,m3_p3,0.02179393761639321,7,9.850551767453198e-05,25,True,0.006037671152158132,positive,0.005
+E05,escalation,tariff_announcement,USTR proposes tariffs on an additional 200 billion dollars of Chinese goods,core,True,False,False,True,m5_p5,0.03120757986148369,11,9.850551767453198e-05,25,True,0.005616014490446365,positive,0.005
+E06,escalation,tariff_implementation,Second tranche of bilateral tariffs enters into force,core,True,False,False,True,m1_p1,0.0021719807175010564,3,0.0006458150303083121,25,True,0.004231747822352092,neutral,0.005
+E06,escalation,tariff_implementation,Second tranche of bilateral tariffs enters into force,core,True,False,False,True,m3_p3,0.01202496255546238,7,0.0006458150303083121,25,True,0.0034500692019479653,positive,0.005
+E06,escalation,tariff_implementation,Second tranche of bilateral tariffs enters into force,core,True,False,False,True,m5_p5,0.02195533171673112,11,0.0006458150303083121,25,True,0.003995661199458624,positive,0.005
+E07,escalation,tariff_implementation,US implements tariffs on 200 billion dollars of Chinese imports,core,True,False,False,True,m1_p1,-0.007360112337188545,3,0.0007235984836293374,25,True,0.001615985194179901,negative,0.005
+E07,escalation,tariff_implementation,US implements tariffs on 200 billion dollars of Chinese imports,core,True,False,False,True,m3_p3,-0.0016866326758085042,7,0.0007235984836293374,25,True,0.0039595700339047695,neutral,0.005
+E07,escalation,tariff_implementation,US implements tariffs on 200 billion dollars of Chinese imports,core,True,False,False,True,m5_p5,-0.0011474992210983247,11,0.0007235984836293374,25,True,0.004056933086408231,neutral,0.005
+E08,relief,suspension,US postpones scheduled increase of tariffs,core,True,False,False,True,m1_p1,-0.027483405129850754,3,-0.001199338382755415,25,True,0.009049215444678954,negative,0.005
+E08,relief,suspension,US postpones scheduled increase of tariffs,core,True,False,False,True,m3_p3,-0.11024672447529749,7,-0.001199338382755415,25,True,0.008463006015377859,negative,0.005
+E08,relief,suspension,US postpones scheduled increase of tariffs,core,True,False,False,True,m5_p5,-0.042073374017848136,11,-0.001199338382755415,25,True,0.021737494590659077,negative,0.005
+E09,relief,suspension,US extends suspension of tariff increase,core,True,False,False,True,m1_p1,-0.01869507412141702,3,0.0023862947174014826,25,True,0.00269645486242043,negative,0.005
+E09,relief,suspension,US extends suspension of tariff increase,core,True,False,False,True,m3_p3,-0.03442784712022828,7,0.0023862947174014826,25,True,0.004832653098476398,negative,0.005
+E09,relief,suspension,US extends suspension of tariff increase,core,True,False,False,True,m5_p5,-0.027688172402086875,11,0.0023862947174014826,25,True,0.006399615191260054,negative,0.005
+E10,escalation,tariff_increase,US raises tariffs from 10 percent to 25 percent,core,True,False,False,True,m1_p1,-0.02816501106625982,3,0.0015777753949022344,25,True,0.014529948250336029,negative,0.005
+E10,escalation,tariff_increase,US raises tariffs from 10 percent to 25 percent,core,True,False,False,True,m3_p3,-0.03873826973378397,7,0.0015777753949022344,25,True,0.012036405221564395,negative,0.005
+E10,escalation,tariff_increase,US raises tariffs from 10 percent to 25 percent,core,True,False,False,True,m5_p5,-0.036824126591662995,11,0.0015777753949022344,25,True,0.0108187072065603,negative,0.005
+E11,escalation,tariff_announcement,USTR formalizes new tariffs on Chinese imports,core,True,False,False,True,m1_p1,0.016126617395669333,3,-0.001229560302930124,25,True,0.010621609059988095,positive,0.005
+E11,escalation,tariff_announcement,USTR formalizes new tariffs on Chinese imports,core,True,False,False,True,m3_p3,0.011482839678055544,7,-0.001229560302930124,25,True,0.0139264569213911,positive,0.005
+E11,escalation,tariff_announcement,USTR formalizes new tariffs on Chinese imports,core,True,False,False,True,m5_p5,0.010019823399622756,11,-0.001229560302930124,25,True,0.015432632584917578,positive,0.005
+E12,escalation,tariff_increase,US raises planned tariff rate,core,True,False,False,True,m1_p1,0.009137375814827417,3,-0.0009021324237525841,25,True,0.009879076576422282,positive,0.005
+E12,escalation,tariff_increase,US raises planned tariff rate,core,True,False,False,True,m3_p3,0.03994009789480398,7,-0.0009021324237525841,25,True,0.008034986147801472,positive,0.005
+E12,escalation,tariff_increase,US raises planned tariff rate,core,True,False,False,True,m5_p5,0.029401873464483815,11,-0.0009021324237525841,25,True,0.011441470596580745,positive,0.005
+E13,escalation,tariff_implementation,New tariffs enter into force,core,True,False,False,True,m1_p1,0.009664515501968878,3,-0.001692916513026641,25,True,0.008903698532905341,positive,0.005
+E13,escalation,tariff_implementation,New tariffs enter into force,core,True,False,False,True,m3_p3,0.0495893723092604,7,-0.001692916513026641,25,True,0.007483262618181831,positive,0.005
+E13,escalation,tariff_implementation,New tariffs enter into force,core,True,False,False,True,m5_p5,0.06436913955593848,11,-0.001692916513026641,25,True,0.006929659068818776,positive,0.005
+E14,relief,agreement,Phase One agreement announced,core,True,False,False,True,m1_p1,0.013015831121975506,3,0.0009265872390297414,25,True,0.004553223138788274,positive,0.005
+E14,relief,agreement,Phase One agreement announced,core,True,False,False,True,m3_p3,0.01102369816419697,7,0.0009265872390297414,25,True,0.0038899762981060024,positive,0.005
+E14,relief,agreement,Phase One agreement announced,core,True,False,False,True,m5_p5,0.022694325229749096,11,0.0009265872390297414,25,True,0.00417216634900467,positive,0.005
+E15,relief,suspension,US suspends planned tariffs,core,True,False,False,True,m1_p1,0.0022386309601656372,3,0.00070788436639039,25,True,0.0026307238004805405,neutral,0.005
+E15,relief,suspension,US suspends planned tariffs,core,True,False,False,True,m3_p3,0.012438385240591463,7,0.00070788436639039,25,True,0.002979436738242457,positive,0.005
+E15,relief,suspension,US suspends planned tariffs,core,True,False,False,True,m5_p5,0.02602295006575345,11,0.00070788436639039,25,True,0.003176354259248758,positive,0.005
+E16,relief,agreement,Phase One agreement signed,core,True,False,False,True,m1_p1,0.005063585133999454,3,0.0012195440013929603,25,True,0.005021535199331952,positive,0.005
+E16,relief,agreement,Phase One agreement signed,core,True,False,False,True,m3_p3,0.005516630292470667,7,0.0012195440013929603,25,True,0.004588852463093072,positive,0.005
+E16,relief,agreement,Phase One agreement signed,core,True,False,False,True,m5_p5,0.01362622094496239,11,0.0012195440013929603,25,True,0.003972358802867351,positive,0.005
+E17,relief,tariff_reduction,US reduces tariffs,core,True,False,False,True,m1_p1,-0.006996128373140915,3,0.0014297577732940959,25,True,0.002463805861584039,negative,0.005
+E17,relief,tariff_reduction,US reduces tariffs,core,True,False,False,True,m3_p3,-0.0036737743293481263,7,0.0014297577732940959,25,True,0.0038766407206059996,neutral,0.005
+E17,relief,tariff_reduction,US reduces tariffs,core,True,False,False,True,m5_p5,-0.05149899098871013,11,0.0014297577732940959,25,True,0.011385135352780202,negative,0.005
+E18,relief,relief_measure,China introduces tariff exemption process,pandemic,False,True,False,False,m1_p1,0.0009936620068346307,3,0.0008785715192912224,25,True,0.003852162344028023,neutral,0.005
+E18,relief,relief_measure,China introduces tariff exemption process,pandemic,False,True,False,False,m3_p3,-0.012022046131685995,7,0.0008785715192912224,25,True,0.005755520399228903,negative,0.005
+E18,relief,relief_measure,China introduces tariff exemption process,pandemic,False,True,False,False,m5_p5,-0.07031508408700451,11,0.0008785715192912224,25,True,0.014020839653615244,negative,0.005
+E19,relief,agricultural_purchase,China increases US agricultural imports,pandemic,False,True,False,False,m1_p1,0.00744511479142942,3,0.001893588534791113,25,True,0.012092187992066607,positive,0.005
+E19,relief,agricultural_purchase,China increases US agricultural imports,pandemic,False,True,False,False,m3_p3,0.004135866715229012,7,0.001893588534791113,25,True,0.008829616321369069,neutral,0.005
+E19,relief,agricultural_purchase,China increases US agricultural imports,pandemic,False,True,False,False,m5_p5,0.0036564185523390485,11,0.001893588534791113,25,True,0.0084159348853892,neutral,0.005
+E20,relief,exclusion_process,US considers tariff exclusions,pandemic,False,True,False,False,m1_p1,-0.004020079608325747,3,-0.00029122026840466386,25,True,0.009477451302339455,neutral,0.005
+E20,relief,exclusion_process,US considers tariff exclusions,pandemic,False,True,False,False,m3_p3,0.009605091147404012,7,-0.00029122026840466386,25,True,0.007651235776101541,positive,0.005
+E20,relief,exclusion_process,US considers tariff exclusions,pandemic,False,True,False,False,m5_p5,0.022400911242261234,11,-0.00029122026840466386,25,True,0.007850975065003702,positive,0.005
+E21,escalation,regulatory_action,US changes Hong Kong trade labeling rules,pandemic,False,True,False,False,m1_p1,-0.0022361383457499932,3,0.0036685913254092027,25,True,0.010983959283165238,neutral,0.005
+E21,escalation,regulatory_action,US changes Hong Kong trade labeling rules,pandemic,False,True,False,False,m3_p3,-0.012068835512344306,7,0.0036685913254092027,25,True,0.006908930097753115,negative,0.005
+E21,escalation,regulatory_action,US changes Hong Kong trade labeling rules,pandemic,False,True,False,False,m5_p5,-0.011688295713713812,11,0.0036685913254092027,25,True,0.005524477254954216,negative,0.005
+E22,structural,diplomatic_delay,Trade review postponed,pandemic,False,True,False,False,m1_p1,-0.003457640219529443,3,0.002766329753952341,25,True,0.0015597283122101959,neutral,0.005
+E22,structural,diplomatic_delay,Trade review postponed,pandemic,False,True,False,False,m3_p3,-0.0038193467478750426,7,0.002766329753952341,25,True,0.005882566608337324,neutral,0.005
+E22,structural,diplomatic_delay,Trade review postponed,pandemic,False,True,False,False,m5_p5,-0.006626754275959374,11,0.002766329753952341,25,True,0.006118706702325334,negative,0.005
+E23,escalation,regulatory_action,US suspends tax exemptions,pandemic,False,True,False,False,m1_p1,-0.006006549836233401,3,0.0023547254459914723,25,True,0.004141763130248897,negative,0.005
+E23,escalation,regulatory_action,US suspends tax exemptions,pandemic,False,True,False,False,m3_p3,0.0005973336155964109,7,0.0023547254459914723,25,True,0.004341549980564506,neutral,0.005
+E23,escalation,regulatory_action,US suspends tax exemptions,pandemic,False,True,False,False,m5_p5,0.01691978426414482,11,0.0023547254459914723,25,True,0.005523133930902703,positive,0.005
+E24,relief,diplomatic_engagement,Trade talks continue,pandemic,False,True,False,False,m1_p1,0.015427540962624057,3,0.0028027182110530635,25,True,0.003767006979407832,positive,0.005
+E24,relief,diplomatic_engagement,Trade talks continue,pandemic,False,True,False,False,m3_p3,0.019222017298212813,7,0.0028027182110530635,25,True,0.003468606686311442,positive,0.005
+E24,relief,diplomatic_engagement,Trade talks continue,pandemic,False,True,False,False,m5_p5,0.011240178489191375,11,0.0028027182110530635,25,True,0.004614695057817356,positive,0.005
