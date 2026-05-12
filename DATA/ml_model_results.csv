@@ -1,0 +1,4 @@
+model,model_label,validation_strategy,n_splits,n_samples,n_events,majority_class,baseline_accuracy,accuracy,precision,recall,f1
+baseline_majority,Baseline majoritaria,majority_class_baseline,0,72,24,0,0.5555555555555556,0.5555555555555556,0.0,0.0,0.0
+logistic_regression,Regressao Logistica,stratified_group_kfold,5,72,24,0,0.5555555555555556,0.4305555555555556,0.37142857142857144,0.40625,0.3880597014925373
+random_forest,Random Forest,stratified_group_kfold,5,72,24,0,0.5555555555555556,0.4166666666666667,0.32142857142857145,0.28125,0.3

@@ -1,0 +1,13 @@
+model,model_label,actual_label,predicted_label,count
+baseline_majority,Baseline majoritaria,0,0,40
+baseline_majority,Baseline majoritaria,0,1,0
+baseline_majority,Baseline majoritaria,1,0,32
+baseline_majority,Baseline majoritaria,1,1,0
+logistic_regression,Regressao Logistica,0,0,18
+logistic_regression,Regressao Logistica,0,1,22
+logistic_regression,Regressao Logistica,1,0,19
+logistic_regression,Regressao Logistica,1,1,13
+random_forest,Random Forest,0,0,21
+random_forest,Random Forest,0,1,19
+random_forest,Random Forest,1,0,23
+random_forest,Random Forest,1,1,9
