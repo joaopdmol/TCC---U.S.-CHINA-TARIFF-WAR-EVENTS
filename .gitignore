@@ -10,3 +10,10 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 Thumbs.db
+
+# Local TCC drafting files
+BACKUP_FINAL_TCC_DRAFT_*.md
+FILLING_REPORT.md
+FINAL_TCC_DRAFT*.md
+METHODOLOGY_SECTION.md
+partes/
