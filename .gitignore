@@ -17,3 +17,6 @@ FILLING_REPORT.md
 FINAL_TCC_DRAFT*.md
 METHODOLOGY_SECTION.md
 partes/
+
+# Local Python environment
+.venv/
