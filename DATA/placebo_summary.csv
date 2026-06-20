@@ -1,0 +1,4 @@
+window_label,observed_n,observed_mean_car,placebo_n,placebo_mean_car,placebo_sd,empirical_placebo_p_value,interpretation,event_window
+m1_p1,24,-0.0023430040812778123,500,-0.0005067523880649707,0.020157319326688482,0.812,Consistent with placebo variation,"[-1,+1]"
+m3_p3,24,-0.001643600192147921,500,-0.0005983812394222116,0.03199450448080175,0.91,Consistent with placebo variation,"[-3,+3]"
+m5_p5,24,0.0010798147647165374,500,-0.0012396590487136388,0.04433917690347841,0.956,Consistent with placebo variation,"[-5,+5]"
