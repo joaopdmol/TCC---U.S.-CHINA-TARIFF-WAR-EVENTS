@@ -2,7 +2,7 @@
 
 ## English
 
-This repository contains the reproducible empirical pipeline developed for João Pedro Duarte Mól's undergraduate thesis. The project analyzes U.S. stock market reactions to key events of the United States-China tariff war, with primary emphasis on the S&P 500.
+This repository contains the reproducible empirical pipeline developed for my undergraduate thesis. The project analyzes U.S. stock market reactions to key events of the United States-China tariff war, with primary emphasis on the S&P 500.
 
 The workflow combines Event Study methodology, abnormal return and Cumulative Abnormal Return calculations, robustness and sensitivity checks, placebo validation, volatility analysis, statistical validation, figure generation, final analytical outputs, and an exploratory Machine Learning layer.
 
@@ -10,7 +10,7 @@ The purpose of the repository is to document the data science structure behind t
 
 ## Português
 
-Este repositório contém o pipeline empírico reprodutível desenvolvido para o Trabalho de Conclusão de Curso de João Pedro Duarte Mól. O projeto analisa reações do mercado acionário norte-americano a eventos centrais da guerra tarifária entre Estados Unidos e China, com foco principal no índice S&P 500.
+Este repositório contém o pipeline empírico reprodutível desenvolvido para o meu Trabalho de Conclusão de Curso. O projeto analisa reações do mercado acionário norte-americano a eventos centrais da guerra tarifária entre Estados Unidos e China, com foco principal no índice S&P 500.
 
 O fluxo de análise combina metodologia de Estudo de Eventos, cálculo de retornos anormais e Retornos Anormais Acumulados, testes de robustez e sensibilidade, validação placebo, análise de volatilidade, validação estatística, geração de figuras, outputs analíticos finais e uma camada exploratória de Machine Learning.
 
