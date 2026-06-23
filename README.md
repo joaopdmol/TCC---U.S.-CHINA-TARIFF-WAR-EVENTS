@@ -24,6 +24,7 @@ O objetivo do repositório é documentar a estrutura de ciência de dados por tr
 - `NOTEBOOKS/`: inspection notebooks used to review intermediate and final outputs.
 - `partes/generated/`: generated LaTeX tables for incorporation into the final text.
 - `RESULTS_SECTION.md`, `ROBUSTNESS_SECTION.md`, `ML_SECTION.md`, and `METHODOLOGY_SECTION.md`: supporting text sections for the thesis.
+- `OVERLEAF_PATCH_ROBUST_CAR.md`: ready-to-paste LaTeX blocks for the robust CAR statistics layer (tables, figures, methodology and discussion paragraphs).
 
 ## Main Empirical Workflow / Fluxo Empírico Principal
 
@@ -34,16 +35,26 @@ The empirical pipeline follows these steps:
 3. Construction of event windows.
 4. Calculation of expected returns, abnormal returns, and Cumulative Abnormal Returns.
 5. Descriptive analysis, volatility analysis, and lightweight statistical tests.
-6. Robustness and sensitivity checks.
+6. Robustness and sensitivity checks (estimation window, signal threshold, sample composition).
 7. Placebo validation.
 8. Exploratory Machine Learning analysis.
 9. Generation of final figures and tables.
+10. Robust CAR statistics: median, trimmed mean, winsorized mean, bootstrap CI, Wilcoxon, sign test, leave-one-out influence analysis.
+11. Critical-fix analyses: CAR × volatility Pearson/Spearman correlation (N=24), signal threshold sensitivity (±0.25/0.50/0.75%), formal escalation vs relief group tests (Mann-Whitney U, Welch t), core vs expanded comparison table.
 
 ## Reproducibility Checks / Validações de Reprodutibilidade
 
 On Windows, using the local virtual environment:
 
 ```powershell
+# Install dependencies
+.\.venv\Scripts\pip.exe install pandas numpy scipy matplotlib seaborn yfinance scikit-learn
+
+# Run build scripts (in order)
+.\.venv\Scripts\python.exe SCRIPTS\build_robust_car_statistics.py
+.\.venv\Scripts\python.exe SCRIPTS\build_critical_fix_analyses.py
+
+# Run all validators
 .\.venv\Scripts\python.exe SCRIPTS\validate_events.py
 .\.venv\Scripts\python.exe SCRIPTS\validate_market_features.py
 .\.venv\Scripts\python.exe SCRIPTS\validate_event_windows.py
@@ -52,11 +63,13 @@ On Windows, using the local virtual environment:
 .\.venv\Scripts\python.exe SCRIPTS\validate_final_outputs.py
 .\.venv\Scripts\python.exe SCRIPTS\validate_robustness.py
 .\.venv\Scripts\python.exe SCRIPTS\validate_ml_outputs.py
+.\.venv\Scripts\python.exe SCRIPTS\validate_robust_car_statistics.py
+.\.venv\Scripts\python.exe SCRIPTS\validate_critical_fixes.py
 ```
 
 ## Methodological Note / Observação Metodológica
 
-The primary analysis uses the `core` sample of 17 events between 2018 and 2020. The expanded chronology is used as a robustness layer when market-data coverage is available. The Event Study uses a transparent expected-return specification based on a pre-event estimation window, and the findings are interpreted conservatively as evidence of market reactions and temporal associations.
+The primary analysis uses the `expanded market-covered` sample of 24 events with sufficient market data. The `core` sample of 17 classical-phase events (2018–early 2020) is used as a robustness comparison. The post-pandemic regime (2021 onward) is documented in the master chronology but falls outside the available market-covered period and is not used in financial inference. The Event Study uses a transparent mean-adjusted expected-return model with a pre-event estimation window of $[-30,-6]$ trading days, and the findings are interpreted conservatively as evidence of temporal associations rather than causal effects.
 
 ## Academic Author / Autor Acadêmico
 

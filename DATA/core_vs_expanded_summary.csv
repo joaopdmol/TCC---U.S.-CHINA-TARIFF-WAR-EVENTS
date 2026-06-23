@@ -1,0 +1,4 @@
+window,window_label,n_core,n_expanded,mean_car_core,mean_car_expanded,median_car_core,median_car_expanded,diff_mean_pct
+"[-1,+1]",m1_p1,17,24,-0.3787,-0.2343,0.2172,-0.0621,0.1444
+"[-3,+3]",m3_p3,17,24,-0.2653,-0.1644,1.1024,0.4826,0.1009
+"[-5,+5]",m5_p5,17,24,0.3549,0.108,1.3626,1.063,-0.2469

@@ -1,0 +1,5 @@
+scope,window,n_obs,pearson_r,pearson_p,pearson_sig,spearman_r,spearman_p,spearman_sig
+pooled (all windows),all,72,-0.317735,0.006533,True,-0.170107,0.153124,False
+"window [-1,+1]",m1_p1,24,-0.33477,0.109817,False,-0.142609,0.506209,False
+"window [-3,+3]",m3_p3,24,-0.219729,0.302232,False,-0.049565,0.818094,False
+"window [-5,+5]",m5_p5,24,-0.452183,0.026524,True,-0.3,0.154363,False
