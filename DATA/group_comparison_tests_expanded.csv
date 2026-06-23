@@ -1,0 +1,7 @@
+window,window_label,group_a,group_b,n_escalation,n_relief,mean_escalation,mean_relief,median_escalation,median_relief,mean_diff_esc_minus_rel,test_method,statistic,p_value,significant_5pct
+"[-1,+1]",m1_p1,escalation,relief,13,10,-0.00305878,-0.00130103,-0.00223614,0.00161615,-0.00175775,welch_ttest,-0.253898,0.802065,False
+"[-1,+1]",m1_p1,escalation,relief,13,10,-0.00305878,-0.00130103,-0.00223614,0.00161615,-0.00175775,mannwhitney_u,61.0,0.828161,False
+"[-3,+3]",m3_p3,escalation,relief,13,10,0.0048309,-0.00984287,0.01148284,0.00482625,0.01467377,welch_ttest,0.987053,0.337474,False
+"[-3,+3]",m3_p3,escalation,relief,13,10,0.0048309,-0.00984287,0.01148284,0.00482625,0.01467377,mannwhitney_u,80.0,0.368519,False
+"[-5,+5]",m5_p5,escalation,relief,13,10,0.00957515,-0.00919346,0.01691978,0.0074483,0.01876861,welch_ttest,1.293666,0.211431,False
+"[-5,+5]",m5_p5,escalation,relief,13,10,0.00957515,-0.00919346,0.01691978,0.0074483,0.01876861,mannwhitney_u,85.0,0.226533,False
