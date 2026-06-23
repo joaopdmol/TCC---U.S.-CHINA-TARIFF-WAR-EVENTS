@@ -22,7 +22,6 @@ O objetivo do repositório é documentar a estrutura de ciência de dados por tr
 - `SCRIPTS/`: reproducible Python scripts for data construction, validation, robustness checks, visualization, and analysis.
 - `FIGURES/`: figures generated from the empirical analysis.
 - `NOTEBOOKS/`: exploratory notebooks used for inspection and validation support.
-- `partes_tcc/`: LaTeX thesis sections associated with the final academic text.
 - `requirements.txt`: Python dependencies required to reproduce the analysis.
 ## Main Empirical Workflow / Fluxo Empírico Principal
 
