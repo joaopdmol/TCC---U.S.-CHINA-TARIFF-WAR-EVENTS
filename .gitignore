@@ -20,3 +20,4 @@ partes_tcc/
 # Local Python environment
 .venv/
 
+.claude/
