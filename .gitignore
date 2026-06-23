@@ -12,18 +12,11 @@ __pycache__/
 Thumbs.db
 
 # Local TCC drafting files
-BACKUP_FINAL_TCC_DRAFT_*.md
-FILLING_REPORT.md
-FINAL_TCC_DRAFT*.md
-METHODOLOGY_SECTION.md
+
 partes/
 partes_tcc/
-OVERLEAF_PATCH_FINAL_CRITICAL_FIXES.md
-ML_SECTION.md
-RESULTS_SECTION.md
-ROBUSTNESS_SECTION.md
+
 
 # Local Python environment
 .venv/
 
-.claude/
