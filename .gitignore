@@ -14,10 +14,10 @@ Thumbs.db
 # Local TCC drafting files
 
 partes/
-partes_tcc/
 
 
 # Local Python environment
 .venv/
 
-.claude/
+partes_tcc/
+feedbacks_orientadora.md
